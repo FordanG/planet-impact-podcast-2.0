@@ -1,38 +1,51 @@
 ---
-title: "TEST BLOG #2"
+title: 8 similarities between Pro Athletes and Successful Entrepreneurs
 author: Manthan Shah
 date: 2021-09-17T19:48:38.207Z
-image: https://manthanshahtt.files.wordpress.com/2018/05/hear-ye-hear-ye-e1525980577517.png
-description: This blogpost talks about my journey in US appliactions, and how I
-  earned a handsome amount in scholarships and financial aid.
+image: https://manthanshahtt.files.wordpress.com/2018/05/dsc_0150.jpg?w=1568
+description: I have been an athlete for 12 years now, rising from a rural town
+  to win 2 International medals for the country in Pacific Games. Currently, I
+  am running 2 Non-Profits and working as a sales manager in a Multinational
+  startup. Although I wouldn’t call myself a successful entrepreneur yet, I work
+  closely with many of those young, most influential, high net worth madmen. In
+  my journey so far, many similarities have become apparent between the pro
+  athletes and successful entrepreneurs. Here are my reflection on the same.
 ---
-About a year ago, I decided that I wanted to pursue my undergrad in Economics from abroad. It was one of those extremely self-reflected decisions. However, US Education is synonymous with extremely expensive tuition where the cost of attendance for 4 years can quickly add up to more than 200,000 $.
+<!--StartFragment-->
 
-I come from a progressive middle-class family. Although my parents were extremely supportive of me being the first person in our long spread family to pursue higher education from any prestigious university, I was unwilling to put my parents into this financial pressure.
+I have been an athlete for 12 years now, rising from a rural town to win 2 International medals for the country in Pacific Games. Currently, I am running 2 Non-Profits and working as a sales manager in a Multinational startup. Although I wouldn’t call myself a successful entrepreneur yet, I work closely with many of those young, most influential, high net worth madmen.\
+In my journey so far, many similarities have become apparent between the pro athletes and successful entrepreneurs. Here are my reflections on the same.
 
-With hard work and luck (the best combination for success), I was able to get admitted into 3 of the most prestigious US universities alongside a top Indian Business School with astronomical scholarships.
+# You suck at the start
 
-* I got into University of Massachusetts, Amherst, with the Chancellors award for academic excellence of 14,000$ per year scholarship towards tuition.
-* I got into University of Illinois, Chicago, with a President’s Merit Scholarship for outstanding academic and extracurricular achievements of 10,000$ per year for 4 years towards tuition.
-* I got into State University of New York, Binghamton, with a Provost’s Scholarship for Academic Excellence with 7,000$ per year towards tuition.
-* I got into SP Jain’s Global BBA Program on scholarship. Can’t disclose the amount, I had to sign a NDA.
+You always begin at the bottom of the pyramid, and the food chain. Just as you can’t expect to take up a sport and be an overnight sensation, you can’t start a business with the expectations that you’ll be a multi-million dollar business overnight. There is no such thing as a natural talent, which is tough for a lot of people to come to terms with. So, yes, everyone sucks at the start and being okay with that is part of the mindset that allows successful people to make it through the beginning stages without quitting. Very few people are willing to make it through the stages where the results aren’t always obvious.
 
-# How did I do it?
+# Built by failure
 
-**I started early**– I took a gap year to explore my potential and passions. I dedicated the first half of the gap year to study for the SATs, TOEFL and SAT Level 2 Subject Tests. With sheer hard work I was able to score in the 95th percentile globally.
+The failure isn’t over once you make it through the beginning stages of your journey. This will happen often for athletes and entrepreneurs, who naturally push themselves to the limits in the pursuit of excellence. Failure is not absolute unless you quit. Failure is one of the best ways to learn where you need to improve and provides direction for moving forward.
 
-**Essays**– I find myself one of the very few people to have put 3 months into writing the essays. In US college applications, Essays play a major role in determining who you are as a person. There are about 2 Common Essays that go to each University; additionally, each University independently asks for 3-4 special essays. Their topics range from highly intellectual self-reflective questions to the ones that help them determine your sense of purpose in pursuing particular interests.\
-I wrote at least 4 independent drafts of each essay before sending them through. And I believe they played a major role in the admission process.
+# Practice, Practice, Practice
 
-**Extracurricular**– I believe I am a man of extracurricular interests. I have always pursued my passions fearlessly. With already 2 International medals and the 2 National Championship titles in my kitty, I dedicated my 12th grade and the gap year in pursuing a diverse range of passions. I got involved deeply in community service. So much so I started my own NGO known as KIN- knowledge, Integration and Networking. I taught in poor govt. schools. I headed donation camps, volunteership events, animal welfare camps, blood donation camps, cleanliness and beautification drives. Of course, this wouldn’t have been possible without the constant support of fellow activists. But I believe this played an important role in my college admissions.\
-Furthermore, my research paper publications and the entrepreneurship development program I made must have made my Outlier. (read Malcolm Gladwell’s Outlier)
+The rule is absolute, if you want to be the best at anything, you just have to practice more than anyone else is willing to practice. You have to be the hardest working person in the system (or the history of the system). This is one of the toughest parts for athletes and entrepreneurs because practising over and over again seems like it can suck the joy out of something you love. What it really takes is the patience to understand that not every single part of the journey is exciting, but if you have enough passion you will enjoy what is just another part of the process of success.
 
-**Work experience**– At 18, I got the opportunity to serve in ‘the India’s fastest growing Fitness Studio’ MultiFit gyms as an apprentice to the Director Mr Chaitainya Velhal. So much so I progressed from the position of an ‘Operations Intern’ to the ‘Sales Manager’ in a brief tenure of 6 months. This endeavour elevated my perspective towards the worlds, which was reflected very clearly in my application.
+# Game of Principles
 
-**Research**– I put in 1000s of hours (if not tens of thousands) into researching everything about the application: universities, scholarship programs, alumni reports, Test prep., departments and the courses offered, history, college policies etc. USA College Applications became my second forte, first being Table Tennis.
+The journey of an athlete and the entrepreneur is a judge of character. Every principle is a filter that scrapes down the performer, one layer at a time. SPORT (Sincerity, Punctuality, Obedience, respect, Truth) is a motto, both athletes and entrepreneurs have to inculcate to be successful.
 
-**Originality**– In the whole process of applications, as in my life, I made sure I was original and true to my personal beliefs. At no point did I make any decisions with it-would-make-my-CV-better intentions. I never joined any MUNs, participated in international paid conferences or interned at multiple renowned firms just for the sake of college apps. I did not brag about the achievements I earned at the school level. I undertook personal projects such as meditating in Dharamshala, teaching free of cost table tennis to younglings, taking multiple Online courses purely for learning from it. Although it opened me to diverse opportunities, I was able to hold my truest form in the applications.
+# Incremental Improvements
 
-> Originality is the greatest reflection of character.
+As one grows on the path of excellence, the mistakes are hard to identify, likewise, the improvements are hard to notice along the way. This can be disheartening and detrimental to athletes and entrepreneurs. In the beginning, you can see and feel the improvement. It does get to a point when you begin to wonder how much the incremental improvement matters. It matters greatly if you truly want to be one of the best in the world. Once you are in the top 1%, the difference between the best and worst within the top 1% is so small it seems unimportant. Where it shows is in the results, and there it is easily recognizable and very important.
 
-This was my brief overview of my US applications and Scholarships. Get in touch with me for any suggestions, comments or queries. I would love to talk to you. Comment below.
+# It takes a TEAM
+
+In all sports and in all businesses, it takes a team. Even in an individual sport like Table Tennis; you have technical coaches, multiball coaches, sparring partners, fitness trainer, nutritionist, and mental coaches at a minimum. It takes more than just being the best individual, it takes bringing the best out of you. Everyone who has played sports can remember one teammate in their past that was a great player but went nowhere. These are the types that have bad attitudes and blame everyone but themselves for failures. Having a team mentality in sports and in business is the only way to reach the pinnacle. And as the acronym goes- Together Everyone Achieves More. Period.
+
+# Success is in the Journey
+
+In sports, the pinnacle is winning the championship. So, why don’t Olympic medallists, World Champions and National Champions don’t quit after their first titles? Most people would be content with just one championship, but the elite has ever-evolving ideas of what success is. The elite doesn’t see success as a singular destination, they see success as the process that got them to a certain level, then once that level is reached they are looking ahead to a whole new level that most can’t comprehend. Those who become content, quickly loss what made them successful in the first place.
+
+# Final thoughts
+
+I choose to relate entrepreneurs to pro athletes for good reason. Most people see star athletes and assume they were just naturally gifted, which is why they are so successful. Most people also see successful entrepreneurs and assume that they got lucky and that they were immediately successful. This is as far from the truth as you can get. That pro athlete practices more than you can even imagine, they eat, sleep, and live their sport. That entrepreneur didn’t get lucky, they have had more failures and gone over more obstacles then you can even imagine. In either case, there is no easy route, there is no luck, there is just tons of grunt work and passion, and a will to continue when others quit.
+
+<!--EndFragment-->
