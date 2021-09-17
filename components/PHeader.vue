@@ -4,8 +4,8 @@
       class="
         text-secondary
         xl:px-0
-        px-10
-        pt-20
+        md:pt-20
+        pt-10
       "
     >
       <h1

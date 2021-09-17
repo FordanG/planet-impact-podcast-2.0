@@ -1,13 +1,18 @@
 <template>
   <section class="px-5 md:px-0 space-y-8">
     <div class="title space-y-2 mx-auto xl:mt-32 lg:mt-24 md:mt-16 mt-12">
-      <h1 class="text-5xl font-semibold text-primary">{{ blog.title }}</h1>
+      <h1
+        class="text-2xl text-center md:text-left md:text-5xl font-semibold text-primary"
+      >
+        {{ blog.title }}
+      </h1>
       <hr class="border-2 border-secondary" />
 
-      <div class="flex space-x-4">
-        <div class="">
+      <div class="flex space-x-4 justify-center md:justify-start">
+        <div class="text-center md:text-left">
           <p class="block underline">{{ blog.author }}</p>
           <p>
+            <calendar-icon class="inline secondary" />
             {{
               new Date(blog.date).toLocaleString('en-GB', {
                 day: 'numeric',
