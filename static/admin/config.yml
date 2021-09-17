@@ -11,11 +11,125 @@ collections:
     folder: 'content/blog'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    slug: '{{title}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Author',
+          name: 'author',
+          value_field: '{{name}}',
+          display_fields: ['name'],
+          search_fields: ['name'],
+        }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'episodes'
+    label: 'episodes'
+    identifier_field: name
+    folder: 'content/episodes'
+    format: 'frontmatter'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Episode Title', name: 'title', widget: 'string' }
+      - { label: 'Episode Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Episode Display', name: 'display', widget: 'image' }
+      - { label: 'Episode URL', name: 'mobile', widget: 'string' }
+      - { label: 'Episode Page Image', name: 'image', widget: 'image' }
+      - { label: 'Episode Body', name: 'body', widget: 'markdown' }
+      - { label: 'Interviewee Name', name: 'name', widget: 'string' }
+      - { label: 'Interviewee Email', name: 'email', widget: 'string' }
+      - {
+          label: 'Interviewee Recommendations',
+          name: 'recommendations',
+          widget: 'list',
+          field:
+            {
+              label: 'Recommendation',
+              name: 'recommendation',
+              widget: 'string',
+            },
+        }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - name: 'landing'
+        label: 'Landing Page'
+        file: 'content/landing.yml'
+        fields:
+          - label: 'Hero'
+            name: 'hero'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Subheading', name: 'subheading', widget: 'string' }
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Featured Episodes'
+            name: 'episodes'
+            widget: 'list'
+            fields:
+              - {
+                  label: 'Podcast Episode Title',
+                  name: 'title',
+                  widget: 'string',
+                }
+              - {
+                  label: 'Podcast Subtitle',
+                  name: 'subtitle',
+                  widget: 'string',
+                }
+              - { label: 'Podcast Image', name: 'image', widget: 'image' }
+          - label: 'Testimonials'
+            name: 'testimonials'
+            widget: 'list'
+            fields:
+              - { label: 'Testimonial Name', name: 'name', widget: 'string' }
+              - {
+                  label: 'Testimonial Content',
+                  name: 'content',
+                  widget: 'text',
+                }
+          - label: 'Our Partners'
+            name: 'partners'
+            widget: 'list'
+            fields:
+              - { label: 'Partner Name', name: 'name', widget: 'string' }
+              - { label: 'Partner URL', name: 'url', widget: 'string' }
+              - { label: 'Partner Logo', name: 'logo', widget: 'string' }
+          - label: 'Features'
+            name: 'features'
+            widget: 'list'
+            fields:
+              - { label: 'Feature Name', name: 'name', widget: 'string' }
+              - { label: 'Feature URL', name: 'url', widget: 'string' }
+              - { label: 'Feature Logo', name: 'logo', widget: 'string' }
+      - name: 'about'
+        label: 'About Page'
+        file: 'content/about.yml'
+        fields:
+          - label: 'About Page'
+            name: 'about'
+            widget: 'object'
+            fields:
+              - { label: 'Page Heading', name: 'heading', widget: 'string' }
+              - {
+                  label: 'Page Description',
+                  name: 'description',
+                  widget: 'text',
+                }
+              - { label: 'Image', name: 'image', widget: 'image' }
+  - name: 'events'
+    label: 'events'
+    folder: 'content/events'
+    format: 'frontmatter'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Event Title', name: 'title', widget: 'string' }
+      - { label: 'Event Date', name: 'date', widget: 'string' }
+      - { label: 'Event Description', name: 'description', widget: 'text' }
+      - { label: 'Image', name: 'image', widget: 'image' }
