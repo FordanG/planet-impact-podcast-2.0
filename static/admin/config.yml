@@ -26,7 +26,7 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'episodes'
-    label: 'episodes'
+    label: 'Episodes'
     identifier_field: name
     folder: 'content/episodes'
     format: 'frontmatter'
@@ -123,7 +123,7 @@ collections:
                 }
               - { label: 'Image', name: 'image', widget: 'image' }
   - name: 'events'
-    label: 'events'
+    label: 'Events'
     folder: 'content/events'
     format: 'frontmatter'
     create: true
