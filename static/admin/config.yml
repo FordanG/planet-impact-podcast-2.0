@@ -45,23 +45,23 @@ collections:
           label: 'Interviewee Contact Details',
           name: 'contact',
           widget: 'list',
-          fields:
-            - {
-                label: 'Contact Title',
-                name: 'title',
-                widget: 'list',
-                fields:
-                  - {
-                      label: 'Contact Name',
-                      name: 'name',
-                      widget: 'string',
-                    },
-                  - {
-                      label: 'Contact URL',
-                      name: 'url',
-                      widget: 'string',
-                    },
-              },
+          field:
+            {
+              label: 'Contact Title',
+              name: 'title',
+              widget: 'list',
+              fields:
+                - {
+                    label: 'Contact Name',
+                    name: 'name',
+                    widget: 'string',
+                  },
+                - {
+                    label: 'Contact URL',
+                    name: 'url',
+                    widget: 'string',
+                  },    
+            },
         }
       - {
           label: 'Interviewee Recommendations',
