@@ -1,16 +1,31 @@
 ---
+contact: >-
+  <!--StartFragment-->
+
+
+  More about Anshul and YKA Action Network
+
+
+  * Opportunities: Writers Training Program and YKA Action Network
+
+  * Instagram: [@anshultewari](https://www.instagram.com/anshultewari/) , [@thelordofgreens](https://www.instagram.com/thelordofgreens/) and [@youthkiawaz](https://www.instagram.com/youthkiawaaz/)
+
+
+  <!--EndFragment-->
+mobile: https://anchor.fm/manthanshah/embed/episodes/Ep--3--Anshul-Tewari-Democratising-Journalism-efl6cc/a-a2gkpio
+number: 3
 title: Anshul Tewari
 subtitle: Democratising Journalism
 display: /img/ep-3.png
-mobile: https://anchor.fm/manthanshah/embed/episodes/Ep--3--Anshul-Tewari-Democratising-Journalism-efl6cc/a-a2gkpio
+url: https://anchor.fm/manthanshah/embed/episodes/Ep--3--Anshul-Tewari-Democratising-Journalism-efl6cc/a-a2gkpio
 image: /img/ep-3-post.png
 name: Anshul Tewari
-email: AnshulTewari@email.com
 recommendations:
   - "Book: Zero To One By Peter Thiel"
   - "Movie: Madmax Food: 80% Dark Chocolate by Lindt (Chilly Flavour)"
   - "Compliment: Story on how YKA or their work impacted you."
   - "Favourite podcast: Planet Impact Podcast"
+email: AnshulTewari@email.com
 ---
 <!--StartFragment-->
 
