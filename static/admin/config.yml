@@ -36,11 +36,15 @@ collections:
       - { label: 'Episode Title', name: 'title', widget: 'string' }
       - { label: 'Episode Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Episode Display', name: 'display', widget: 'image' }
-      - { label: 'Episode URL', name: 'mobile', widget: 'string' }
+      - { label: 'Episode URL', name: 'url', widget: 'string' }
       - { label: 'Episode Page Image', name: 'image', widget: 'image' }
       - { label: 'Episode Body', name: 'body', widget: 'markdown' }
       - { label: 'Interviewee Name', name: 'name', widget: 'string' }
-      - { label: 'Interviewee Email', name: 'email', widget: 'string' }
+      - {
+          label: 'Interviewee Contact Details',
+          name: 'contact',
+          widget: 'markdown',
+        }
       - {
           label: 'Interviewee Recommendations',
           name: 'recommendations',

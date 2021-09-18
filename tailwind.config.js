@@ -35,6 +35,21 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      display: ['hover', 'group-hover'],
+      scale: ['hover', 'group-hover'],
+      filter: ['group-hover'],
+      height: ['group-hover'],
+      brightness: ['group-hover'],
+      invert: ['group-hover'],
+      margin: ['group-hover'],
+      textAlign: ['group-hover'],
+      fontSize: ['group-hover'],
+      justifyContent: ['hover'],
+      alignItems: ['hover'],
+      backgroundColor: ['active', 'focus']
+    }
+  },
   plugins: [require('@tailwindcss/typography')]
 }

@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <p-header heading="Contact Us" />
+  </div>
 </template>
 
 <script>

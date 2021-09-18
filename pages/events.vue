@@ -1,5 +1,7 @@
 <template>
-  <div></div>
+  <div>
+    <p-header heading="Events" />
+  </div>
 </template>
 
 <script>
