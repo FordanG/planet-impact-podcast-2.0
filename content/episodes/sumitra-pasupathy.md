@@ -1,13 +1,29 @@
 ---
+contact: >-
+  <!--StartFragment-->
+
+
+  Sumitra Pasupathy is the Senior Manager of Global Partnership at Ashoka.
+
+
+  Email Ashoka Singapore at [singapore@ashoka.org](mailto:singapore@ashoka.org)
+
+
+  Follow Sumitra on LinkedIn: [Sumitra Pasupathy](https://www.linkedin.com/in/sumitra-pasupathy-56291/)
+
+
+  <!--EndFragment-->
+mobile: https://anchor.fm/manthanshah/embed/episodes/Ep--2--Sumitra-Pasupathy-From-Cambridge-to-Creating-Changemakers-efban7/a-a2et2b7
+number: 2
 title: Sumitra Pasupathy
 subtitle: From Cambridge to Creating Changemakers
 display: /img/ep-2.png
-mobile: https://anchor.fm/manthanshah/embed/episodes/Ep--2--Sumitra-Pasupathy-From-Cambridge-to-Creating-Changemakers-efban7/a-a2et2b7
+url: https://anchor.fm/manthanshah/embed/episodes/Ep--2--Sumitra-Pasupathy-From-Cambridge-to-Creating-Changemakers-efban7/a-a2et2b7
 image: /img/ep-2-post.png
 name: Sumitra Pasupathy
-email: singapore@ashoka.org
 recommendations:
   - "Book: David Brooks, Road to Character"
+email: singapore@ashoka.org
 ---
 <!--StartFragment-->
 
