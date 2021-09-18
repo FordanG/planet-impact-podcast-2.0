@@ -1,14 +1,39 @@
 ---
-title: Federico Garcia
-subtitle: Saving the Planet, One Tree at a Time
-display: /img/ep-1.png
+contact: >-
+  <!--StartFragment-->
+
+
+  More about Federico and Treedom:
+
+
+  * [Ashoka Website](https://www.ashoka.org/en-in/fellow/federico-garcea)
+
+  * [Treedom Official Website](https://www.treedom.net/en/page/about_us)
+
+
+  Get in touch with Federico:
+
+
+  * LinkedIn: [Federico Garcea](https://www.linkedin.com/in/federicogarcea/?locale=it_IT)
+
+  * Treedom: [Form](https://www.treedom.net/en/customer-care)
+
+  * Instagram: [@federico_garcea](https://www.instagram.com/federico_garcea/?hl=en) and [@treedom_trees](https://www.instagram.com/treedom_trees/?hl=en)
+
+
+  <!--EndFragment-->
 mobile: "
   https://anchor.fm/manthanshah/embed/episodes/Ep--1--Federico-Garcea-Saving-th\
   e-Planet--One-Tree-at-a-Time-ef12ir/a-a2ctggh"
+number: 1
+title: Federico Garcia
+subtitle: Saving the Planet, One Tree at a Time
+display: /img/ep-1.png
+url: https://anchor.fm/manthanshah/embed/episodes/Ep--1--Federico-Garcea-Saving-the-Planet--One-Tree-at-a-Time-ef12ir/a-a2ctggh
 image: /img/ep-1-post.png
 name: Federico Garcia
-email: FedericoGarcia@gmail.com
 recommendations: []
+email: FedericoGarcia@gmail.com
 ---
 <!--StartFragment-->
 
