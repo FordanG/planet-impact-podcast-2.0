@@ -44,7 +44,24 @@ collections:
       - {
           label: 'Interviewee Contact Details',
           name: 'contact',
-          widget: 'markdown',
+          widget: 'list',
+          fields:
+            - {
+                label: 'Contact Title',
+                name: 'title',
+                widget: 'list',
+                fields:
+                  - {
+                      label: 'Contact Name',
+                      name: 'name',
+                      widget: 'string',
+                    },
+                  - {
+                      label: 'Contact URL',
+                      name: 'url',
+                      widget: 'string',
+                    },
+              },
         }
       - {
           label: 'Interviewee Recommendations',
