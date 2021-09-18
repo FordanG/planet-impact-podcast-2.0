@@ -33,6 +33,7 @@ collections:
     create: true
     slug: '{{title}}'
     fields:
+      - { label: 'Episode Number', name: 'number', widget: 'number' }
       - { label: 'Episode Title', name: 'title', widget: 'string' }
       - { label: 'Episode Subtitle', name: 'subtitle', widget: 'string' }
       - { label: 'Episode Display', name: 'display', widget: 'image' }
