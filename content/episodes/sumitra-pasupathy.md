@@ -2,9 +2,7 @@
 title: Sumitra Pasupathy
 subtitle: From Cambridge to Creating Changemakers
 display: /img/ep-2.png
-mobile: "
-  https://anchor.fm/manthanshah/embed/episodes/Ep--1--Federico-Garcea-Saving-th\
-  e-Planet--One-Tree-at-a-Time-ef12ir/a-a2ctggh"
+mobile: https://anchor.fm/manthanshah/embed/episodes/Ep--2--Sumitra-Pasupathy-From-Cambridge-to-Creating-Changemakers-efban7/a-a2et2b7
 image: /img/ep-2-post.png
 name: Sumitra Pasupathy
 email: singapore@ashoka.org
