@@ -119,7 +119,7 @@ collections:
             fields:
               - { label: 'Partner Name', name: 'name', widget: 'string' }
               - { label: 'Partner URL', name: 'url', widget: 'string' }
-              - { label: 'Partner Logo', name: 'logo', widget: 'string' }
+              - { label: 'Partner Logo', name: 'logo', widget: 'image' }
           - label: 'Features'
             name: 'features'
             widget: 'list'
@@ -127,7 +127,7 @@ collections:
             fields:
               - { label: 'Feature Name', name: 'name', widget: 'string' }
               - { label: 'Feature URL', name: 'url', widget: 'string' }
-              - { label: 'Feature Logo', name: 'logo', widget: 'string' }
+              - { label: 'Feature Logo', name: 'logo', widget: 'image' }
   - name: 'about'
     label: 'About Page'
     folder: 'content/about'
