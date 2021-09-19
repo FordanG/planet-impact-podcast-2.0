@@ -3,7 +3,13 @@
     <div
       class="transform hover:scale-102 transition-scale duration-100 ease-in-out"
     >
-      <img :src="details.display" :alt="details.title" />
+      <div class="relative h-0 wrapper">
+        <img
+          :src="details.display"
+          :alt="details.title"
+          class="absolute top-0 left-0 max-w-full h-auto"
+        />
+      </div>
       <h2 class="font-bold text-2xl text-center text-secondary">
         {{ details.title }}
       </h2>
@@ -24,7 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card {
-  min-height: 15.625rem;
+.wrapper {
+  padding-top: calc(360 / 360 * 100%);
 }
 </style>

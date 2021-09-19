@@ -15,7 +15,14 @@
         <nuxt-content :document="episode" class="prose prose-xl mx-auto" />
       </div>
       <div class="w-full lg:w-1/2 px-5 space-y-4">
-        <img :src="episode.image" :alt="episode.title" />
+        <div class="relative h-0 wrapper">
+          <img
+            :src="episode.image"
+            :alt="episode.title"
+            class="absolute top-0 left-0 max-w-full h-auto"
+          />
+        </div>
+
         <div class="ml-2 space-y-2">
           <h2
             v-if="episode.contact.length !== 0"
@@ -114,10 +121,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// h1::after {
-//   content: '';
-//   @apply absolute block left-0  w-screen border-2 border-secondary;
-// }
+.wrapper {
+  padding-top: calc(360 / 360 * 100%);
+}
 .title {
   max-width: 65ch;
 }
