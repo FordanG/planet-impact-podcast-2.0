@@ -1,27 +1,41 @@
 ---
-number: 4
-title: Devika Malik
-subtitle: Ability Beyond Disability
-display: /img/ep-4.png
-url: https://anchor.fm/manthanshah/embed/episodes/Ep--4--Devika-Malik-Ability-Beyond-Disability-eg0ne2/a-a2ipe7p
-image: /img/ep-4-post.png
-name: Devika Malik
+number: 1
+title: Federico Garcea
+subtitle: Saving the Planet, One Tree at a Time
+display: /img/ep-1.png
+url: https://anchor.fm/manthanshah/embed/episodes/Ep--1--Federico-Garcea-Saving-the-Planet--One-Tree-at-a-Time-ef12ir/a-a2ctggh
+image: /img/ep-1-post.png
+name: Federico Garcea
 socmed:
+  - platform: LinkedIn
+    url: https://www.linkedin.com/in/federicogarcea/?locale=it_IT
+    handle: Federico Garcea
+  - platform: Website
+    url: https://www.treedom.net/en/customer-care
+    handle: Treedom Form
   - platform: Instagram
-    url: https://www.instagram.com/devikamalik394/
-    handle: "@devikamalik394"
+    url: https://www.instagram.com/federico_garcea/?hl=en
+    handle: @federico_garcea
   - platform: Instagram
-    handle: "@wheelinghappiness"
-    url: https://www.instagram.com/wheelinghappiness/
+    url: https://www.instagram.com/treedom_trees/?hl=en
+    handle: @treedom_trees
 contact:
   - platform: Website
-    url: https://wheelinghappiness.org/
-    handle: Wheeling Happiness Website
+    url: https://www.ashoka.org/en-in/fellow/federico-garcea
+    handle: Ashoka Profile
+  - platform: Website
+    url: https://www.treedom.net/en/page/about_us
+    handle: Treedom Official
 ---
-Devika is the co-founder of Wheeling Happiness Foundation, the Queen’s Young Leader Awardee 2015, UN Women Transforming India winner, Global Happiness Leader and Forbes 30 under 30 awardee 2020.
 
-> "One mistake that many of us make is equating disability with inability. Sometimes, we disqualify people just by assuming that they will be unable to perform a certain task."
+<!--StartFragment-->
 
-Born a premature baby with acute neonatal jaundice and hemiplegia, Devika Malik was paralysed on one side of the body. Despite her disability, nothing could stop Devika from becoming an international para-athlete. In five years (2011-2016), she won eight national and three international medals in para-athletics.
+Federico Garcea ([@federico_garcea](https://www.instagram.com/federico_garcea/?hl=en)) is the founder and CEO of Treedom ([@treedom_trees](https://www.instagram.com/treedom_trees/?hl=en))- Financial Times Top 100 most sustainable companies in Europe, and an Ashoka Fellow from Florence, Italy. This UN World Environment Day, Federico tells us his story from being a financial analyst to being the founder of the B-Corporation which has been saving the planet one tree at a time.
 
-She is trained as a Psychologist. With her mother, Padma Sri Deepa Malik, she started 'Wheeling Happiness Foundation' which is an NGO working to ensure an inclusive world & enable people with disabilities to achieve their potential. As part of their COVID response, Wheeling Happiness is supporting underprivileged families of people with disabilities with dry rations, sanitary kits & cash in hand. Today they are also providing cooked meals and free telephonic counselling.
+Federico did a lot of odd jobs before he stumbled upon the idea of Treedom. The main source of inspiration was a combination of his travel experiences abroad and playing the famous online game FarmVille.
+
+Founded in 2010, Treedom is the only online platform in the world where you can have someone plant a tree for you and then follow it online. Today more than 2,000,000 trees have been planted in Africa, South America and Italy. All trees are planted directly by local farmers and bring environmental, social and financial benefits to their communities. Thanks to its business model, in 2014 Treedom became part of the Certified B Corporations, a network of companies that stand out for high environmental and social performance. Every tree on Treedom is geo-localized and photographed and has its online page, it can be kept or virtually gifted to others.
+
+By the end of this podcast, Federico shares its expansion plans in Asia. Thus giving an opportunity to collaborate and work with him.
+
+<!--EndFragment-->
