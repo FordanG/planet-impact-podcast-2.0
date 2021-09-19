@@ -1,8 +1,8 @@
 <template>
   <div class="antialiased flex flex-col min-h-screen">
-    <p-navbar class="px-5 lg:px-0" />
+    <p-navbar class="px-5 xl:px-0" />
     <p-sidebar />
-    <Nuxt class="flex-grow mt-0 md:-mt-7 mb-20 px-5 lg:px-0" />
+    <Nuxt class="flex-grow mt-0 md:-mt-7 mb-20 px-5 md:px-8 lg:px-12 xl:px-0" />
     <p-footer />
   </div>
 </template>
