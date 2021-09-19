@@ -1,10 +1,10 @@
 <template>
-  <div class="xl:mb-20 mb-10">
+  <div class="xl:mb-12 mb-8">
     <div
       class="
         text-secondary
         xl:px-0
-        md:pt-20
+        md:pt-16
         pt-10
       "
     >
