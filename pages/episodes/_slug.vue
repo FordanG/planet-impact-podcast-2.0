@@ -16,9 +16,7 @@
       </div>
       <div class="w-1/2 px-5">
         <img :src="episode.image" :alt="episode.title" />
-
-        <p>{{ episode.contact }}</p>
-        <nuxt-content :document="episode.contact" class="prose" />
+        <p>{{ episode.socmed }}</p>
       </div>
     </div>
   </section>

@@ -9,12 +9,16 @@ name: Devika Malik
 socmed:
   - platform: Instagram
     url: https://www.instagram.com/devikamalik394/
+    handle: @devikamalik394
   - platform: Instagram
     url: https://www.instagram.com/wheelinghappiness/
+    handle: @wheelinghappiness
 contact:
   - platform: Website
     url: https://wheelinghappiness.org/
+    handle: Wheeling Happiness Website
 ---
+
 <!--StartFragment-->
 
 Devika is the co-founder of Wheeling Happiness Foundation, the Queen’s Young Leader Awardee 2015, UN Women Transforming India winner, Global Happiness Leader and Forbes 30 under 30 awardee 2020.

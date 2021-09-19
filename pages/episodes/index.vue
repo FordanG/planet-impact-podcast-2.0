@@ -29,7 +29,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const episodes = await $content('episodes').fetch()
+    const episodes = await $content('episodes')
+      .sortBy('number', 'desc')
+      .fetch()
     return { episodes }
   },
   head() {

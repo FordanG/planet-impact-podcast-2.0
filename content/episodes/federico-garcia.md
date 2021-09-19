@@ -1,40 +1,34 @@
 ---
-contact: >-
-  <!--StartFragment-->
-
-
-  More about Federico and Treedom:
-
-
-  * [Ashoka Website](https://www.ashoka.org/en-in/fellow/federico-garcea)
-
-  * [Treedom Official Website](https://www.treedom.net/en/page/about_us)
-
-
-  Get in touch with Federico:
-
-
-  * LinkedIn: [Federico Garcea](https://www.linkedin.com/in/federicogarcea/?locale=it_IT)
-
-  * Treedom: [Form](https://www.treedom.net/en/customer-care)
-
-  * Instagram: [@federico_garcea](https://www.instagram.com/federico_garcea/?hl=en) and [@treedom_trees](https://www.instagram.com/treedom_trees/?hl=en)
-
-
-  <!--EndFragment-->
-mobile: "
-  https://anchor.fm/manthanshah/embed/episodes/Ep--1--Federico-Garcea-Saving-th\
-  e-Planet--One-Tree-at-a-Time-ef12ir/a-a2ctggh"
 number: 1
-title: Federico Garcia
+title: Federico Garcea
 subtitle: Saving the Planet, One Tree at a Time
 display: /img/ep-1.png
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--1--Federico-Garcea-Saving-the-Planet--One-Tree-at-a-Time-ef12ir/a-a2ctggh
 image: /img/ep-1-post.png
-name: Federico Garcia
+name: Federico Garcea
+socmed:
+  - platform: LinkedIn
+    url: https://www.linkedin.com/in/federicogarcea/?locale=it_IT
+    handle: Federico Garcea
+  - platform: Website
+    url: https://www.treedom.net/en/customer-care
+    handle: Treedom Form
+  - platform: Instagram
+    url: https://www.instagram.com/federico_garcea/?hl=en
+    handle: @federico_garcea
+  - platform: Instagram
+    url: https://www.instagram.com/treedom_trees/?hl=en
+    handle: @treedom_trees
+contact:
+  - platform: Website
+    url: https://www.ashoka.org/en-in/fellow/federico-garcea
+    handle: Ashoka Profile
+  - platform: Website
+    url: https://www.treedom.net/en/page/about_us
+    handle: Treedom Official
 recommendations: []
-email: FedericoGarcia@gmail.com
 ---
+
 <!--StartFragment-->
 
 Federico Garcea ([@federico_garcea](https://www.instagram.com/federico_garcea/?hl=en)) is the founder and CEO of Treedom ([@treedom_trees](https://www.instagram.com/treedom_trees/?hl=en))- Financial Times Top 100 most sustainable companies in Europe, and an Ashoka Fellow from Florence, Italy. This UN World Environment Day, Federico tells us his story from being a financial analyst to being the founder of the B-Corporation which has been saving the planet one tree at a time.

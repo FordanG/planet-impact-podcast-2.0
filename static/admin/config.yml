@@ -45,12 +45,13 @@ collections:
       - label: 'Social Media Details'
         name: 'socmed'
         widget: 'list'
-        summary: '{{fields.platform}}: {{fields.url}}'
+        summary: '{{fields.platform}}: {{fields.handle}}'
         fields:
           - { label: Social Media Platform, name: platform, widget: string }
           - label: Social Media Link
             name: url
             widget: string
+          - { label: Display Name/Handle, name: handle, widget: string }
       - label: 'Contact Details (Email, Website, and other Platforms)'
         name: 'contact'
         widget: 'list'
@@ -60,6 +61,7 @@ collections:
           - label: Website Link/Email Address
             name: url
             widget: string
+          - { label: Display Name/Handle, name: handle, widget: string }
       - {
           label: 'Interviewee Recommendations',
           name: 'recommendations',
