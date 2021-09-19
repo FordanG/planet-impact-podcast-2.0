@@ -4,6 +4,11 @@ hero:
 description: Planet Impact is a weekly show on how non-conformist social
   entrepreneurs are changing the world.
 episodes: []
+featured:
+  - episodes:
+      - sumitra-pasupathy
+      - federico-garcia
+      - devika-malik
 testimonials:
   - name: Vritti from Dubai UAE
     content: Highly recommend this podcast to those who aspire to be young change
