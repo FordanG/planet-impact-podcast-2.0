@@ -20,3 +20,17 @@ testimonials:
   - name: Tanmay from Singapore
     content: In these times, such podcasts, which feature the real change-makers,
       will definitely have a positive impact in young minds.
+partners:
+  - name: Bridge for Billions
+    url: https://bridgeforbillions.org/
+    logo: /img/bridgeforbillions_1.png
+  - url: https://www.symbiosiscollege.edu.in/
+    name: Symbiosis College
+    logo: /img/symbiosis-college-of-arts-and-commerce-pune-logo.png
+  - name: SP Jain School of Global Management
+    url: https://www.spjain.org/
+    logo: /img/sp_jain_school_of_global_management_logo.webp
+features:
+  - name: Livewire
+    url: https://livewire.thewire.in/out-and-about/climate-change-on-sustaining-youth-led-movements-during-a-pandemic/
+    logo: /img/livewire_full_logo.png
