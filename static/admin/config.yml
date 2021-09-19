@@ -135,7 +135,7 @@ collections:
     label: 'About Page'
     folder: 'content/about'
     format: 'frontmatter'
-    create: true
+    create: false
     slug: 'about'
     fields:
       - { label: 'Page Heading', name: 'heading', widget: 'string' }
