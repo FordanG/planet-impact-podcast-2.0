@@ -16,13 +16,6 @@
       </div>
       <div class="w-full lg:w-1/2 px-5 space-y-4">
         <img :src="episode.image" :alt="episode.title" />
-        <!-- <p>{{ episode.socmed }}</p>
-        <p>{{ episode.contact }}</p> -->
-        <!-- <p
-          v-for="contact in episode.contact"
-          :key="contact.slug"
-          :details="contact"
-        />{{contact.platform}}</p> -->
         <div class="ml-2 space-y-2">
           <h2
             v-if="episode.contact.length !== 0"
