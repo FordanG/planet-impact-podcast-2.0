@@ -91,7 +91,7 @@ collections:
             widget: 'string'
           - label: 'Featured Episodes'
             name: 'featured'
-            widget: 'list'
+            widget: 'object'
             fields:
               - label: 'Featured Episodes'
                 name: 'episodes'
