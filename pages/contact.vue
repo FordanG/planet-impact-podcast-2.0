@@ -89,7 +89,7 @@
           <h2 class="text-2xl uppercase font-bold">Our Offices</h2>
           <hr />
         </div>
-        <div class="flex flex-col lg:flex-row space-y-4 justify-start">
+        <div class="flex flex-col lg:flex-row space-y-4 items-baseline">
           <div class="w-full lg:w-1/3 text-center">
             <h3 class="text-2xl font-semibold">
               <i class="fa fa-map-pin" aria-hidden="true"></i> Australia
