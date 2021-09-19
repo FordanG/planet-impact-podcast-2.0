@@ -19,7 +19,7 @@
       >
         {{ heading }}
       </h1>
-      <hr class="container border-2 border-gray-200 w-screen mt-2" />
+      <hr class="container border-2 border-gray-200 w-full mt-2" />
     </div>
   </div>
 </template>
