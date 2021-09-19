@@ -90,20 +90,17 @@ collections:
             name: 'description'
             widget: 'string'
           - label: 'Featured Episodes'
-            name: 'episodes'
+            name: 'featured'
             widget: 'list'
             fields:
-              - {
-                  label: 'Podcast Episode Title',
-                  name: 'title',
-                  widget: 'string',
-                }
-              - {
-                  label: 'Podcast Subtitle',
-                  name: 'subtitle',
-                  widget: 'string',
-                }
-              - { label: 'Podcast Image', name: 'image', widget: 'image' }
+              - label: 'Featured Episodes'
+                name: 'episodes'
+                widget: 'relation'
+                collection: 'episodes'
+                value_field: '{{slug}}'
+                display_fields: ['title']
+                search_fields: ['title']
+                multiple: true
           - label: 'Testimonials'
             name: 'testimonials'
             widget: 'list'
