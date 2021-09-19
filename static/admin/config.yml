@@ -139,7 +139,7 @@ collections:
     slug: 'about'
     fields:
       - { label: 'Page Heading', name: 'heading', widget: 'string' }
-      - { label: 'Page Description', name: 'description', widget: 'markdown' }
+      - { label: 'Page Description', name: 'body', widget: 'markdown' }
       - { label: 'Image', name: 'image', widget: 'image' }
   - name: 'events'
     label: 'Events'
