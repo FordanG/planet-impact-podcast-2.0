@@ -28,7 +28,6 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'episodes'
     label: 'Episodes'
-    identifier_field: '{{number}} + {{title}}'
     folder: 'content/episodes'
     format: 'frontmatter'
     create: true
@@ -66,6 +65,7 @@ collections:
           label: 'Interviewee Recommendations',
           name: 'recommendations',
           widget: 'list',
+          summary: '{{field.recommendation}}',
           field:
             {
               label: 'Recommendation',
@@ -107,6 +107,7 @@ collections:
           - label: 'Testimonials'
             name: 'testimonials'
             widget: 'list'
+            summary: '{{fields.name}}'
             fields:
               - { label: 'Testimonial Name', name: 'name', widget: 'string' }
               - {
@@ -117,6 +118,7 @@ collections:
           - label: 'Our Partners'
             name: 'partners'
             widget: 'list'
+            summary: '{{fields.name}}'
             fields:
               - { label: 'Partner Name', name: 'name', widget: 'string' }
               - { label: 'Partner URL', name: 'url', widget: 'string' }
@@ -124,6 +126,7 @@ collections:
           - label: 'Features'
             name: 'features'
             widget: 'list'
+            summary: '{{fields.name}}'
             fields:
               - { label: 'Feature Name', name: 'name', widget: 'string' }
               - { label: 'Feature URL', name: 'url', widget: 'string' }
