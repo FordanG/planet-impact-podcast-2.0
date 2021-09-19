@@ -8,8 +8,8 @@
         md:grid-cols-3
         gap-3
         grid-cols-1
-        px-10
-        md:px-0
+        px-5
+        xl:px-0
       "
     >
       <div class="flex flex-col text-white">
@@ -35,7 +35,7 @@
         </p>
       </div>
     </div>
-    <div class="bg-secondary text-primary py-2">
+    <div class="w-full bg-secondary text-primary py-2 ">
       <div
         class="
           container
@@ -43,8 +43,8 @@
           md:flex-row
           justify-between
           items-center
-          px-10
-          md:px-0
+          px-5
+        xl:px-0
         "
       >
         <p id="copyright" class="text-white order-1 md:order-0">

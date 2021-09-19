@@ -1,5 +1,5 @@
 <template>
-  <section class="container pt-20 md:px-0 space-y-10">
+  <section class="container md:pt-20 pt-5 lg:px-0 px-2 lg:space-y-10">
     <iframe
       :src="episode.url"
       height="100%"
@@ -8,28 +8,91 @@
       scrolling="no"
     ></iframe>
 
-    <div class="flex">
-      <div class="w-1/2 px-5">
+    <div class="flex lg:flex-row flex-col">
+      <div class="w-full lg:w-1/2 px-5">
         <h1 class="text-3xl font-bold text-secondary">{{ episode.name }}</h1>
         <hr />
         <nuxt-content :document="episode" class="prose prose-xl mx-auto" />
       </div>
-      <div class="w-1/2 px-5">
+      <div class="w-full lg:w-1/2 px-5 space-y-4">
         <img :src="episode.image" :alt="episode.title" />
-        <p>{{ episode.socmed }}</p>
-        <p>{{ episode.contact }}</p>
+        <!-- <p>{{ episode.socmed }}</p>
+        <p>{{ episode.contact }}</p> -->
         <!-- <p
           v-for="contact in episode.contact"
           :key="contact.slug"
           :details="contact"
         />{{contact.platform}}</p> -->
-        <a v-for="contact in episode.contact" :href="contact.url">
-          {{ `> ${contact.platform}: ${contact.handle}` }}
-        </a>
-        <a v-for="socmed in episode.socmed" :href="socmed.url">
-          {{ `> ${socmed.platform}: ${socmed.handle}` }}
-        </a>
-        </p>
+        <div class="ml-2 space-y-2">
+          <h2
+            v-if="episode.contact.length !== 0"
+            class="font-bold uppercase text-secondary"
+          >
+            {{
+              `Learn more about ${episode.name.substr(
+                0,
+                episode.name.indexOf(' ')
+              )}:`
+            }}
+          </h2>
+          <p-contact
+            v-for="contact in episode.contact"
+            :key="contact.slug"
+            :details="contact"
+          />
+        </div>
+
+        <div class="ml-2 space-y-2">
+          <h2
+            v-if="episode.socmed.length !== 0"
+            class="font-bold uppercase text-secondary"
+          >
+            {{
+              `Get in Touch with ${episode.name.substr(
+                0,
+                episode.name.indexOf(' ')
+              )}:`
+            }}
+          </h2>
+          <p-contact
+            v-for="socmed in episode.socmed"
+            :key="socmed.slug"
+            :details="socmed"
+          />
+        </div>
+
+        <div class="ml-2 space-y-2">
+          <h2 class="font-bold uppercase text-secondary">
+            Follow Manthan and Planet Impact Podcast:
+          </h2>
+          <p class="ml-3">
+            <span>> Instagram: </span
+            ><a
+              class="text-primary underline hover:text-secondary"
+              href="https://www.instagram.com/manthanshh/?hl=en"
+            >
+              @manthanshh
+            </a>
+          </p>
+          <p class="ml-3">
+            <span>> Instagram: </span
+            ><a
+              class="text-primary underline hover:text-secondary"
+              href="https://www.instagram.com/planetimpactpod/?hl=en"
+            >
+              @planetimpactpod
+            </a>
+          </p>
+          <p class="ml-3">
+            <span>> LinkedIn: </span
+            ><a
+              class="text-primary underline hover:text-secondary"
+              href="https://www.linkedin.com/in/manthanshh/"
+            >
+              Manthan Shah
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </section>
