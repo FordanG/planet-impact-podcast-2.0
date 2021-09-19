@@ -26,7 +26,6 @@ contact:
   - platform: Website
     url: https://www.treedom.net/en/page/about_us
     handle: Treedom Official
-recommendations: []
 ---
 
 <!--StartFragment-->
