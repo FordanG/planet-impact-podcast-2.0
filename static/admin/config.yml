@@ -4,6 +4,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+site_url: https://planetimpactpod.com
 
 collections:
   - name: 'blog'
@@ -27,7 +28,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'episodes'
     label: 'Episodes'
-    identifier_field: name
+    identifier_field: '{{number}} + {{title}}'
     folder: 'content/episodes'
     format: 'frontmatter'
     create: true
@@ -41,28 +42,24 @@ collections:
       - { label: 'Episode Page Image', name: 'image', widget: 'image' }
       - { label: 'Episode Body', name: 'body', widget: 'markdown' }
       - { label: 'Interviewee Name', name: 'name', widget: 'string' }
-      - {
-          label: 'Interviewee Contact Details',
-          name: 'contact',
-          widget: 'list',
-          field:
-            {
-              label: 'Contact Title',
-              name: 'title',
-              widget: 'list',
-              fields:
-                - {
-                    label: 'Contact Name',
-                    name: 'name',
-                    widget: 'string',
-                  },
-                - {
-                    label: 'Contact URL',
-                    name: 'url',
-                    widget: 'string',
-                  },    
-            },
-        }
+      - label: 'Social Media Details'
+        name: 'socmed'
+        widget: 'list'
+        summary: '{{fields.platform}}: {{fields.url}}'
+        fields:
+          - { label: Social Media Platform, name: platform, widget: string }
+          - label: Social Media Link
+            name: url
+            widget: string
+      - label: 'Contact Details (Email, Website, and other Platforms)'
+        name: 'contact'
+        widget: 'list'
+        summary: '{{fields.platform}}: {{fields.url}}'
+        fields:
+          - { label: Platform, name: platform, widget: string }
+          - label: Website Link/Email Address
+            name: url
+            widget: string
       - {
           label: 'Interviewee Recommendations',
           name: 'recommendations',
