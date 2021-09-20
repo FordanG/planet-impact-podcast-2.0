@@ -1,7 +1,7 @@
 <template>
-  <div class="px-5">
+  <div class="container px-5 md:px-8 lg:px-12 xl:px-0">
     <p-header heading="About the Host" />
-    <div class="container flex flex-col lg:flex-row ">
+    <div class="flex flex-col lg:flex-row ">
       <div class="w-full order-2 lg:order-1 lg:w-1/2 flex flex-col space-y-4">
         <nuxt-content :document="about" class="prose prose-lg mx-auto" />
         <img

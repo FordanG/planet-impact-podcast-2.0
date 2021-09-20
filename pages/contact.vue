@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="px-5 md:px-8 lg:px-12 xl:px-0">
     <p-header heading="Contact Us" />
-    <div class="container">
+    <div class="container ">
       <form
         class="w-full"
         name="Contact Form"

@@ -1,5 +1,7 @@
 <template>
-  <section class="container md:pt-20 pt-5 lg:px-0 px-2 lg:space-y-10">
+  <section
+    class="container px-5 md:px-8 lg:px-12 xl:px-0 md:pt-20 pt-5 lg:space-y-10"
+  >
     <iframe
       :src="episode.url"
       height="100%"

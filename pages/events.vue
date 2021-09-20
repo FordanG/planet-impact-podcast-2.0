@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container px-5 md:px-8 lg:px-12 xl:px-0">
     <p-header heading="Events" />
     <div class="space-y-20">
       <p-event-card

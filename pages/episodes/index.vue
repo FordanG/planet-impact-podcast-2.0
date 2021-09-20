@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="container px-5 md:px-8 lg:px-12 xl:px-0">
     <p-header heading="Episodes" />
-    <section class="container space-y-8">
+    <section class=" space-y-8">
       <div
         class="
           xl:gap-20

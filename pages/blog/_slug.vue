@@ -1,5 +1,5 @@
 <template>
-  <section class="px-5 md:px-0 space-y-8">
+  <section class="px-5 md:px-8 lg:px-12 xl:px-0 space-y-8">
     <div class="title space-y-2 mx-auto xl:mt-32 lg:mt-24 md:mt-16 mt-12">
       <h1
         class="text-2xl text-center md:text-left md:text-5xl font-semibold text-primary"
