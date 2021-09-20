@@ -340,6 +340,7 @@
                 name="Voting Form"
                 method="post"
                 data-netlify="true"
+                data-netlify-honeypot="bot-field"
               >
                 <fieldset>
                   <p-header
@@ -349,6 +350,11 @@
                   <!-- Name input-->
                   <div class="form-group flex justify-center mb-2">
                     <div class="w-full lg:w-1/2 text-center">
+                      <input
+                        type="hidden"
+                        name="form-name"
+                        value="Voting Form"
+                      />
                       <input
                         id="name"
                         name="name"
