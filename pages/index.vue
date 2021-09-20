@@ -337,7 +337,7 @@
             <div class="well well-sm">
               <form
                 class="form-horizontal"
-                name="Voting Form"
+                name="voting-form"
                 method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
@@ -353,7 +353,7 @@
                       <input
                         type="hidden"
                         name="form-name"
-                        value="Voting Form"
+                        value="voting-form"
                       />
                       <input
                         id="name"

@@ -4,7 +4,7 @@
     <div class="container ">
       <form
         class="w-full"
-        name="Contact Form"
+        name="contact-form"
         data-netlify="true"
         method="post"
         data-netlify-honeypot="bot-field"
@@ -53,7 +53,7 @@
               type="email"
               placeholder="JaneDoe@email.com"
             />
-            <input type="hidden" name="form-name" value="Contact Form" />
+            <input type="hidden" name="form-name" value="contact-form" />
             <!-- <p class="text-gray-600 text-xs italic">
             Some tips - as long as needed
           </p> -->
