@@ -2,9 +2,11 @@
   <div class="xl:w-1/3 lg:w-5/12 w-11/12 sm:w-3/5 md:w-5/12 xl:pb-0 pb-12">
     <div class="shadow-lg mx-3 xl:mx-3 sm:mx-0 lg:mx-0 rounded">
       <div class="bg-secondary pt-6 pb-6 pl-6 rounded-tl rounded-tr">
-        <p class="text-xl text-white pb-1">{{ details.name }}</p>
+        <h4 class="text-xl text-white pb-1 font-semibold">
+          {{ details.name }}
+        </h4>
       </div>
-      <div class="pl-6 pr-6 pt-10 relative h-64">
+      <div class="pl-6 pr-6 pt-10 relative h-72 bg-white rounded-b">
         <p class="text-base text-gray-600 leading-8">
           {{ details.content }}
         </p>
@@ -29,7 +31,7 @@ import Vue from 'vue'
 export default Vue.extend({
   props: {
     details: {
-      type: String,
+      type: Object,
       required: true
     }
   }
