@@ -44,6 +44,13 @@
       "
       >
         <div class="flex flex-col text-white">
+          <h3>Planet Impact Podcast</h3>
+          <p>
+            Planet Impact is a weekly show on how non-conformist social
+            entrepreneurs are changing the world.
+          </p>
+        </div>
+        <div class="flex flex-col text-white">
           <h3>Connect with Us</h3>
           <div class="space-y-2">
             <div>
@@ -58,12 +65,6 @@
               >
             </div>
           </div>
-        </div>
-        <div class="flex flex-col text-white">
-          <h3>India Address</h3>
-          <p>
-            Ahmednagar, 414001 - India
-          </p>
         </div>
       </div>
       <div class="w-full bg-secondary text-primary py-2 ">
