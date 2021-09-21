@@ -88,7 +88,7 @@
           gap-10
           grid grid-auto-flow
           lg:grid-cols-3
-          md:grid-cols-3
+          md:grid-cols-2
           sm:grid-cols-1
           xl:px-0
           px-5
