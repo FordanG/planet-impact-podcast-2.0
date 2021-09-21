@@ -18,7 +18,9 @@
       </div>
       <div class="w-full lg:w-1/2 px-5 space-y-4">
         <div class="relative h-0 wrapper">
-          <img
+          <nuxt-img
+            format="webp"
+            quality="75"
             :src="episode.image"
             :alt="episode.title"
             class="absolute top-0 left-0 max-w-full h-auto lazyload"
