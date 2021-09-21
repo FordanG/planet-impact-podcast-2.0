@@ -2,7 +2,7 @@
 title: I earned 114,000+$ (77 Lakh Rupees) in Scholarships, and here is how I did it.
 author: Manthan Shah
 date: 2021-09-17T19:46:53.109Z
-image: https://manthanshahtt.files.wordpress.com/2018/05/hear-ye-hear-ye-e1525980577517.png
+image: /img/hear-ye-hear-ye-e1525980577517.png
 description: This blogpost talks about my journey in US appliactions, and how I
   earned a handsome amount in scholarships and financial aid.
 ---
