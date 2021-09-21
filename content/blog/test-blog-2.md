@@ -2,7 +2,7 @@
 title: 8 similarities between Pro Athletes and Successful Entrepreneurs
 author: Manthan Shah
 date: 2021-09-17T19:48:38.207Z
-image: https://manthanshahtt.files.wordpress.com/2018/05/dsc_0150.jpg?w=1568
+image: /img/dsc_0150.jpg
 description: I have been an athlete for 12 years now, rising from a rural town
   to win 2 International medals for the country in Pacific Games. Currently, I
   am running 2 Non-Profits and working as a sales manager in a Multinational
