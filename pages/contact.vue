@@ -125,7 +125,21 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: `Planet Impact Podcast | Contact`,
+      meta: [
+        {
+          hid: 'Contact',
+          name: 'description',
+          content:
+            'Planet Impact is a weekly show on how non-conformist social entrepreneurs are changing the world.'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>

@@ -30,6 +30,19 @@ export default {
   async asyncData({ $content }) {
     const about = await $content('about', 'about').fetch()
     return { about }
+  },
+  head() {
+    return {
+      title: `Planet Impact Podcast | About`,
+      meta: [
+        {
+          hid: 'About',
+          name: 'description',
+          content:
+            'Planet Impact is a weekly show on how non-conformist social entrepreneurs are changing the world.'
+        }
+      ]
+    }
   }
 }
 </script>

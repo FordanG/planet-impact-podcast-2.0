@@ -114,7 +114,7 @@ export default {
       title: `Planet Impact Podcast | ${this.episode.title}`,
       meta: [
         {
-          hid: this.episode.slug,
+          hid: this.episode.title,
           name: 'description',
           content: this.episode.description
         }

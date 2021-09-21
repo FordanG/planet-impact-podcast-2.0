@@ -16,6 +16,19 @@ export default {
   async asyncData({ $content }) {
     const events = await $content('events').fetch()
     return { events }
+  },
+  head() {
+    return {
+      title: `Planet Impact Podcast | Events`,
+      meta: [
+        {
+          hid: 'Events',
+          name: 'description',
+          content:
+            'Planet Impact is a weekly show on how non-conformist social entrepreneurs are changing the world.'
+        }
+      ]
+    }
   }
 }
 </script>

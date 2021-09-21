@@ -51,7 +51,7 @@ export default {
       title: `Planet Impact Podcast | ${this.blog.title}`,
       meta: [
         {
-          hid: this.blog.slug,
+          hid: this.blog.title,
           name: 'description',
           content: this.blog.description
         }

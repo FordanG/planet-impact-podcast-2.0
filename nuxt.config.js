@@ -30,7 +30,7 @@ export default {
         content:
           'Planet Impact Podcast is a weekly show on how non-conformist social entrepreneurs are changing the world.'
       },
-      { property: 'og:image', content: '~assets/img/embed-image.png' },
+      { property: 'og:image', content: '/embed-image.png' },
 
       // <!-- Open Graph / Twitter -->
       { property: 'twitter:card', content: 'summary_large_image' },
@@ -40,7 +40,7 @@ export default {
         content:
           'Planet Impact Podcast is a weekly show on how non-conformist social entrepreneurs are changing the world.'
       },
-      { property: 'twitter:image', content: '~assets/img/embed-image.png' },
+      { property: 'twitter:image', content: '/embed-image.png' },
 
       // Google Site Verification
       {
@@ -96,7 +96,7 @@ export default {
       anonymize_ip: false, // anonymize IP
       send_page_view: true, // might be necessary to avoid duplicated page track on page reload
       linker: {
-        domains: ['planetimpactpod.com', 'domain.org']
+        domains: ['planetimpactpod.com']
       }
     },
     disableAutoPageTrack: false // disable if you don't want to track each page route with router.afterEach(...).
