@@ -1,7 +1,9 @@
 <template>
   <div class="flex lg:flex-row flex-col">
     <div class="px-5 w-full lg:order-1 lg:w-1/2 flex flex-col mb-4">
-      <img
+      <nuxt-img
+        format="webp"
+        quality="80"
         :src="details.image"
         :alt="details.image"
         class="block h-full w-full object-cover lazyload"

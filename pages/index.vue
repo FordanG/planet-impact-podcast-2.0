@@ -25,28 +25,12 @@
                 class="w-full lg:w-1/4 flex flex-col items-center text-center md:text-left -mt-12"
                 style="max-width: 410px"
               >
-                <!-- <img
+                <img
                   src="~assets/img/host.png"
                   alt="Planet Impact Podcast Host"
                   class="h-64 lazyload"
-                /> -->
-                <figure class="picture">
-                  <picture>
-                    <source
-                      data-srcset="~assets/img/host.png?webp"
-                      type="image/webp"
-                    />
-                    <source
-                      data-srcset="~/assets/img/host.png"
-                      type="image/png"
-                    />
-                    <img
-                      src="~/assets/img/host.png"
-                      class="h-64 lazyload"
-                      alt="Planet Impact Podcast Host"
-                    />
-                  </picture>
-                </figure>
+                />
+
                 <h2 class="pt-2 font-extrabold text-2xl text-secondary">
                   MANTHAN SHAH
                 </h2>
@@ -137,7 +121,6 @@
         >
           <p-testimonial
             v-for="testimonial in landing.testimonials"
-            class=""
             data-aos="flip-left"
             :key="testimonial.name"
             :details="testimonial"
@@ -161,7 +144,9 @@
             class="w-4/5 lg:w-auto"
           >
             <a :href="partner.url" target="_blank">
-              <img
+              <nuxt-img
+                format="webp"
+                quality="80"
                 class="lg:h-16 h-auto lazyload"
                 data-aos="zoom-in-up"
                 :src="partner.logo"
@@ -188,7 +173,9 @@
             class="w-4/5 lg:w-auto"
           >
             <a :href="feature.url" target="_blank">
-              <img
+              <nuxt-img
+                format="webp"
+                quality="80"
                 class="lg:h-16 h-auto "
                 data-aos="zoom-in-up"
                 :src="feature.logo"

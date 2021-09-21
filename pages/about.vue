@@ -13,10 +13,12 @@
       <div
         class="lg:pl-5 w-full order-1 lg:order-2 lg:w-1/2 flex justify-center"
       >
-        <img
+        <nuxt-img
+          format="webp"
+          quality="80"
           :src="about.image"
           alt="Manthan Shah - Planet Impact Podcast Host"
-          class="object-cover"
+          class="object-cover lazyload"
         />
       </div>
     </div>

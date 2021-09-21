@@ -49,7 +49,9 @@
       <div
         class="w-full order-1 md:order-2 md:absolute md:right-0 md:top-0 md:bottom-0 md:w-1/3"
       >
-        <img
+        <nuxt-img
+          format="webp"
+          quality="80"
           :src="details.image"
           :alt="details.image"
           class="block h-full w-full object-cover lazyload"
