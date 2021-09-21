@@ -86,8 +86,30 @@ export default {
   modules: [
     '@nuxt/content',
     // https://github.com/nuxt-community/google-gtag-module
-    '@nuxtjs/google-gtag'
+    '@nuxtjs/google-gtag',
+    // https://github.com/juliomrqz/nuxt-optimized-images
+    '@bazzite/nuxt-optimized-images'
   ],
+
+  optimizedImages: {
+    inlineImageLimit: -1,
+    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
+    optimizeImages: true,
+    optimizeImagesInDev: false,
+    defaultImageLoader: 'img-loader',
+    mozjpeg: {
+      quality: 75
+    },
+    optipng: false,
+    pngquant: {
+      speed: 7,
+      quality: [0.65, 0.8]
+    },
+    webp: {
+      quality: 75
+    }
+  },
+
   'google-gtag': {
     id: 'UA-179040161-1',
     config: {
@@ -106,10 +128,8 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, { isDev, isClient, loaders: { vue } }) {
-      if (isClient) {
-        vue.transformAssetUrls.img = ['data-src', 'src']
-        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
-      }
+      vue.transformAssetUrls.img = ['data-src', 'src']
+      vue.transformAssetUrls.source = ['data-srcset', 'srcset']
     }
   },
 

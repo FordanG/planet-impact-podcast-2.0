@@ -25,11 +25,28 @@
                 class="w-full lg:w-1/4 flex flex-col items-center text-center md:text-left -mt-12"
                 style="max-width: 410px"
               >
-                <img
+                <!-- <img
                   src="~assets/img/host.png"
                   alt="Planet Impact Podcast Host"
                   class="h-64 lazyload"
-                />
+                /> -->
+                <figure class="picture">
+                  <picture>
+                    <source
+                      data-srcset="~assets/img/host.png?webp"
+                      type="image/webp"
+                    />
+                    <source
+                      data-srcset="~/assets/img/host.png"
+                      type="image/png"
+                    />
+                    <img
+                      src="~/assets/img/host.png"
+                      class="h-64 lazyload"
+                      alt="Planet Impact Podcast Host"
+                    />
+                  </picture>
+                </figure>
                 <h2 class="pt-2 font-extrabold text-2xl text-secondary">
                   MANTHAN SHAH
                 </h2>
