@@ -76,7 +76,7 @@ export default {}
 
 @media (max-width: 600px) {
   #sticky-sidebar {
-    z-index: 10000;
+    z-index: 1000;
     -webkit-box-shadow: 18px 1px 63px -23px rgba(0, 0, 0, 0.58);
     -moz-box-shadow: 18px 1px 63px -23px rgba(0, 0, 0, 0.58);
     box-shadow: 18px 1px 63px -23px rgba(0, 0, 0, 0.58);

@@ -1,6 +1,6 @@
 <template>
   <div class="antialiased flex flex-col min-h-screen">
-    <p-navbar class="px-5 xl:px-0" />
+    <p-navbar />
     <p-sidebar />
     <Nuxt class="flex-grow mb-20" />
     <p-footer />

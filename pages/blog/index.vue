@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="container px-5 md:px-8 lg:px-12 xl:px-0">
     <p-header heading="Blog" />
-    <div class="container px-5 md:px-8 lg:px-12 xl:px-0">
+    <div class="">
       <p-blog v-for="blog in blogs" :key="blog.slug" :details="blog" />
     </div>
   </div>
