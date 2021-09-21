@@ -52,7 +52,7 @@
         <img
           :src="details.image"
           :alt="details.image"
-          class="block h-full w-full object-cover"
+          class="block h-full w-full object-cover lazyload"
         />
       </div>
     </div>

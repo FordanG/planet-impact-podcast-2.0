@@ -7,7 +7,7 @@
         <img
           :src="details.display"
           :alt="details.title"
-          class="absolute top-0 left-0 max-w-full h-auto"
+          class="absolute top-0 left-0 max-w-full h-auto lazyload"
         />
       </div>
       <h2 class="font-bold text-2xl text-center text-secondary">

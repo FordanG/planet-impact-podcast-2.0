@@ -64,7 +64,10 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~plugins/aos', ssr: false }],
+  plugins: [
+    { src: '~plugins/aos', mode: 'client' },
+    '~plugins/vue-lazysizes.client.js'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -101,7 +104,14 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend(config, { isDev, isClient, loaders: { vue } }) {
+      if (isClient) {
+        vue.transformAssetUrls.img = ['data-src', 'src']
+        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+      }
+    }
+  },
 
   googleFonts: {
     families: {

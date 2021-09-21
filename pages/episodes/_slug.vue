@@ -21,7 +21,7 @@
           <img
             :src="episode.image"
             :alt="episode.title"
-            class="absolute top-0 left-0 max-w-full h-auto"
+            class="absolute top-0 left-0 max-w-full h-auto lazyload"
           />
         </div>
 

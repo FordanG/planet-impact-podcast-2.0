@@ -9,7 +9,7 @@
               style="height: 240px"
             >
               <h1
-                class="xl:text-5xl lg:text-3xl text-2xl font-bold text-secondary text-center md:text-right aos-init aos-animate"
+                class="xl:text-6xl lg:mr-20 lg:text-5xl text-3xl font-bold text-secondary text-center md:text-right "
                 data-aos="zoom-in-up"
               >
                 Welcome to the <br />Planet Impact Podcast!
@@ -20,7 +20,7 @@
 
         <div class="bg-primary py-4 pb-10">
           <div class="container px-5 md:px-8 lg:px-12 xl:px-0">
-            <div class="flex flex-col lg:flex-row justify-center">
+            <div class="flex flex-col lg:flex-row justify-center lg:space-x-16">
               <div
                 class="w-full lg:w-1/4 flex flex-col items-center text-center md:text-left -mt-12"
                 style="max-width: 410px"
@@ -28,7 +28,7 @@
                 <img
                   src="~assets/img/host.png"
                   alt="Planet Impact Podcast Host"
-                  class="h-64"
+                  class="h-64 lazyload"
                 />
                 <h2 class="pt-2 font-extrabold text-2xl text-secondary">
                   MANTHAN SHAH
@@ -38,9 +38,10 @@
                 </h3>
               </div>
               <div
-                class="w-full lg:w-3/5 flex flex-col text-center md:text-left pt-4"
+                class="w-full lg:w-7/12 flex flex-col text-center md:text-left pt-4 lg:px-6"
               >
                 <iframe
+                  title="Planet Impact Podcast Trailer"
                   src="https://anchor.fm/manthanshah/embed/episodes/Planet-Impact-Trailer-eeo670/a-a2tsmcj"
                   height="125px"
                   width="100%"
@@ -48,18 +49,24 @@
                   scrolling="no"
                 ></iframe>
                 <!-- <iframe src="https://open.spotify.com/embed-podcast/episode/19q6is7UQduvf5gpMqCDbX?autoplay=1" width="100%" height="120px" frameborder="0" allowtransparency="true" allow="encrypted-media" scrolling="no" allow="autoplay"></iframe> -->
-                <h2 class="text-2xl text-white font-bold pb-5">
+                <h2 class="text-2xl text-white font-semibold pb-5">
                   Planet Impact is a weekly show on how non-conformist social
                   entrepreneurs are changing the world.
                 </h2>
                 <div class="flex space-x-4">
                   <a
                     href="https://open.spotify.com/show/2DH4al5BKHLaVqvIM7m5FD?si=M36sDf-VRLiLJFMe2gU_sQ"
-                    ><img src="~assets/img/spotify-podcasts-badge.png" alt=""
+                    ><img
+                      src="~assets/img/spotify-podcasts-badge.png"
+                      alt="spotify button"
+                      class="lazyload"
                   /></a>
                   <a
                     href="https://podcasts.apple.com/us/podcast/planet-impact/id1493651328?at=1l3vwYf"
-                    ><img src="~assets/img/apple-podcasts-badge.png" alt=""
+                    ><img
+                      src="~assets/img/apple-podcasts-badge.png"
+                      alt="apple podcast button"
+                      class="lazyload"
                   /></a>
                 </div>
               </div>
@@ -113,7 +120,7 @@
         >
           <p-testimonial
             v-for="testimonial in landing.testimonials"
-            class="aos-init aos-animate"
+            class=""
             data-aos="flip-left"
             :key="testimonial.name"
             :details="testimonial"
@@ -138,7 +145,7 @@
           >
             <a :href="partner.url" target="_blank">
               <img
-                class="aos-init aos-animate lg:h-16 h-auto "
+                class="lg:h-16 h-auto lazyload"
                 data-aos="zoom-in-up"
                 :src="partner.logo"
                 :alt="`${partner.name} logo`"
@@ -165,7 +172,7 @@
           >
             <a :href="feature.url" target="_blank">
               <img
-                class="aos-init aos-animate lg:h-16 h-auto "
+                class="lg:h-16 h-auto "
                 data-aos="zoom-in-up"
                 :src="feature.logo"
                 :alt="`${feature.name} logo`"
@@ -185,16 +192,14 @@
         <div
           class="flex md:flex-row flex-col items-center space-y-12 md:space-y-0 justify-center text-center"
         >
-          <div
-            class="card md:w-1/4 w-full aos-init aos-animate"
-            data-aos="fade-up"
-          >
+          <div class="card md:w-1/4 w-full " data-aos="fade-up">
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
                   <img
                     src="~assets/img/Joe.jpeg"
-                    class="border-4 border-secondary shadow"
+                    class="border-4 border-secondary shadow lazyload"
+                    alt="Joe Hawthorne Profile"
                   />
                 </div>
                 <div class="card-title">
@@ -218,16 +223,14 @@
               </div>
             </div>
           </div>
-          <div
-            class="card md:w-1/4 w-full aos-init aos-animate"
-            data-aos="fade-up"
-          >
+          <div class="card md:w-1/4 w-full " data-aos="fade-up">
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
                   <img
                     src="~assets/img/Indraneel.png"
-                    class="border-4 border-secondary shadow"
+                    class="border-4 border-secondary shadow lazyload"
+                    alt="Indranel Joshi Profile"
                   />
                 </div>
                 <div class="card-title">
@@ -251,16 +254,14 @@
               </div>
             </div>
           </div>
-          <div
-            class="card md:w-1/4 w-full aos-init aos-animate"
-            data-aos="fade-up"
-          >
+          <div class="card md:w-1/4 w-full " data-aos="fade-up">
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
                   <img
                     src="~assets/img/gab-pic.png"
-                    class="border-4 border-secondary shadow"
+                    class="border-4 border-secondary shadow lazyload"
+                    alt="Gabriel Fordan Profile"
                   />
                 </div>
                 <div class="card-title">
@@ -287,16 +288,14 @@
               </div>
             </div>
           </div>
-          <div
-            class="card md:w-1/4 w-full aos-init aos-animate"
-            data-aos="fade-up"
-          >
+          <div class="card md:w-1/4 w-full " data-aos="fade-up">
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
                   <img
                     src="~assets/img/host.png"
-                    class="border-4 border-secondary shadow"
+                    class="border-4 border-secondary shadow lazyload"
+                    alt="Manthan Shah Profile"
                   />
                 </div>
                 <div class="card-title">

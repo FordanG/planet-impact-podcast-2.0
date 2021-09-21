@@ -6,7 +6,7 @@
           <div class="flex justify-center items-center w-1/2 ">
             <img
               style="border-right: #111 1px solid;"
-              class="pr-5"
+              class="pr-5 lazyload"
               height="50"
               src="~assets/img/planet-impact-podcast-circular-logo.png"
               alt="Planet Impact Podcast Circular Logo"
@@ -14,7 +14,7 @@
           </div>
           <div class="flex justify-center items-center w-1/2">
             <img
-              class="pl-5"
+              class="pl-5 lazyload"
               height="140"
               src="~assets/img/E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png"
               alt="UN SDG 17"
