@@ -170,7 +170,7 @@
           <div
             v-for="feature in landing.features"
             :key="feature.name"
-            class="w-4/5 lg:w-auto"
+            class="flex justify-center w-4/5 lg:w-auto"
           >
             <a :href="feature.url" target="_blank">
               <nuxt-img
