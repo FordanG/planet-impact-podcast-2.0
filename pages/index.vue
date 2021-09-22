@@ -25,8 +25,13 @@
                 class="w-full lg:w-1/4 flex flex-col items-center text-center md:text-left -mt-12"
                 style="max-width: 410px"
               >
-                <img
-                  src="~assets/img/host.png"
+                <nuxt-img
+                  format="webp"
+                  quality="80"
+                  sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                  width="100%"
+                  height="100%"
+                  src="/img/host.png"
                   alt="Planet Impact Podcast Host"
                   class="h-64 lazyload"
                 />
@@ -54,18 +59,22 @@
                   Planet Impact is a weekly show on how non-conformist social
                   entrepreneurs are changing the world.
                 </h2>
-                <div class="flex space-x-4">
+                <div class="flex justify-center lg:justify-start space-x-4">
                   <a
                     href="https://open.spotify.com/show/2DH4al5BKHLaVqvIM7m5FD?si=M36sDf-VRLiLJFMe2gU_sQ"
-                    ><img
-                      src="~assets/img/spotify-podcasts-badge.png"
+                    ><nuxt-img
+                      format="webp"
+                      quality="80"
+                      src="/img/spotify-podcasts-badge.png"
                       alt="spotify button"
                       class="lazyload"
                   /></a>
                   <a
                     href="https://podcasts.apple.com/us/podcast/planet-impact/id1493651328?at=1l3vwYf"
-                    ><img
-                      src="~assets/img/apple-podcasts-badge.png"
+                    ><nuxt-img
+                      format="webp"
+                      quality="80"
+                      src="/img/apple-podcasts-badge.png"
                       alt="apple podcast button"
                       class="lazyload"
                   /></a>
@@ -124,6 +133,7 @@
             data-aos="flip-left"
             :key="testimonial.name"
             :details="testimonial"
+            class="px-5"
           />
         </div>
       </div>
@@ -141,12 +151,14 @@
           <div
             v-for="partner in landing.partners"
             :key="partner.name"
-            class="w-4/5 lg:w-auto"
+            class="w-4/5 lg:w-auto flex justify-center"
           >
             <a :href="partner.url" target="_blank">
               <nuxt-img
+                fit="inside"
                 format="webp"
                 quality="80"
+                sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
                 class="lg:h-16 h-auto lazyload"
                 data-aos="zoom-in-up"
                 :src="partner.logo"
@@ -176,7 +188,8 @@
               <nuxt-img
                 format="webp"
                 quality="80"
-                class="lg:h-16 h-auto "
+                class="lg:h-16 h-auto"
+                sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
                 data-aos="zoom-in-up"
                 :src="feature.logo"
                 :alt="`${feature.name} logo`"
@@ -194,14 +207,17 @@
           <p-header heading="Our Team" />
         </div>
         <div
-          class="flex md:flex-row flex-col items-center space-y-12 md:space-y-0 justify-center text-center"
+          class="flex md:flex-row flex-col flex-wrap items-center space-y-12 md:space-y-0 justify-center text-center"
         >
           <div class="card md:w-1/4 w-full " data-aos="fade-up">
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
-                  <img
-                    src="~assets/img/Joe.jpeg"
+                  <nuxt-img
+                    format="webp"
+                    quality="80"
+                    sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                    src="/img/Joe.jpeg"
                     class="border-4 border-secondary shadow lazyload"
                     alt="Joe Hawthorne Profile"
                   />
@@ -231,8 +247,11 @@
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
-                  <img
-                    src="~assets/img/Indraneel.png"
+                  <nuxt-img
+                    format="webp"
+                    quality="80"
+                    sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                    src="/img/Indraneel.png"
                     class="border-4 border-secondary shadow lazyload"
                     alt="Indranel Joshi Profile"
                   />
@@ -262,8 +281,11 @@
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
-                  <img
-                    src="~assets/img/gab-pic.png"
+                  <nuxt-img
+                    format="webp"
+                    quality="80"
+                    sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                    src="/img/gab-pic.png"
                     class="border-4 border-secondary shadow lazyload"
                     alt="Gabriel Fordan Profile"
                   />
@@ -296,8 +318,11 @@
             <div class="card-content">
               <div class="card-body p-0">
                 <div class="profile flex justify-center">
-                  <img
-                    src="~assets/img/host.png"
+                  <nuxt-img
+                    format="webp"
+                    quality="80"
+                    sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                    src="/img/host.png"
                     class="border-4 border-secondary shadow lazyload"
                     alt="Manthan Shah Profile"
                   />
@@ -415,7 +440,7 @@ export default {
 <style lang="scss" scoped>
 @import 'aos/dist/aos.css';
 .welcomeHeader {
-  background-image: url(~assets/img/header.svg);
+  background-image: url(/img/header.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
