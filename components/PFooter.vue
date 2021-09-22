@@ -3,20 +3,28 @@
     <section id="un-support" class="px-2 py-4">
       <div class="container flex flex-col items-center">
         <div class="flex w-full px-4 md:w-1/3">
-          <div class="flex justify-center items-center w-1/2 ">
-            <img
-              style="border-right: #111 1px solid;"
+          <div class="flex justify-center items-center w-1/2">
+            <nuxt-img
+              format="webp"
+              quality="80"
+              sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+              width="100%"
+              height="100%"
               class="pr-5 lazyload"
-              height="50"
-              src="~assets/img/planet-impact-podcast-circular-logo.png"
+              src="/img/planet-impact-podcast-circular-logo.png"
+              style="border-right:#111 1px solid"
               alt="Planet Impact Podcast Circular Logo"
             />
           </div>
           <div class="flex justify-center items-center w-1/2">
-            <img
+            <nuxt-img
+              format="webp"
+              quality="80"
+              sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+              width="100%"
+              height="100%"
               class="pl-5 lazyload"
-              height="140"
-              src="~assets/img/E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png"
+              src="/img/E_SDG_logo_without_UN_emblem_Square_Transparent_WEB.png"
               alt="UN SDG 17"
             />
           </div>

@@ -4,11 +4,16 @@
     <div class="flex flex-col lg:flex-row ">
       <div class="w-full order-2 lg:order-1 lg:w-1/2 flex flex-col space-y-4">
         <nuxt-content :document="about" class="prose prose-lg mx-auto" />
-        <img
-          src="~assets/img/signature.jpg"
-          width="60%"
-          alt="Manthan Shah - Signature"
-        />
+        <div class="w-7/12">
+          <nuxt-img
+            format="webp"
+            quality="80"
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            src="/img/signature.jpg"
+            width="60%"
+            alt="Manthan Shah - Signature"
+          />
+        </div>
       </div>
       <div
         class="lg:pl-5 w-full order-1 lg:order-2 lg:w-1/2 flex justify-center"
@@ -16,9 +21,10 @@
         <nuxt-img
           format="webp"
           quality="80"
+          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           :src="about.image"
           alt="Manthan Shah - Planet Impact Podcast Host"
-          class="object-cover lazyload"
+          class="lazyload"
         />
       </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <img
     class="logo-text text-center"
-    src="~assets/img/logo.svg"
+    src="/img/logo.svg"
     alt="Planet Impact Podcast Logo"
     height="82px"
   />

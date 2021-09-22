@@ -7,6 +7,7 @@
         <nuxt-img
           format="webp"
           quality="80"
+          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
           :src="details.display"
           :alt="details.title"
           class="absolute top-0 left-0 max-w-full h-auto lazyload"

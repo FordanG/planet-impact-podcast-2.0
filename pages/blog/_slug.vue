@@ -26,7 +26,10 @@
     </div>
 
     <div class="">
-      <img
+      <nuxt-img
+        format="webp"
+        quality="80"
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
         :src="blog.image"
         :alt="blog.title"
         class="object-cover w-screen blogImage"
