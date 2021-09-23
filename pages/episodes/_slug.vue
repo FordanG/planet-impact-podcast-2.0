@@ -21,6 +21,7 @@
           <nuxt-img
             format="webp"
             quality="75"
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
             :src="episode.image"
             :alt="episode.title"
             class="absolute top-0 left-0 max-w-full h-auto lazyload"
