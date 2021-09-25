@@ -15,6 +15,21 @@
         <h1 class="text-3xl font-bold text-secondary">{{ episode.name }}</h1>
         <hr />
         <nuxt-content :document="episode" class="prose prose-xl mx-auto" />
+        <br />
+        <h2
+          class="text-2xl font-bold text-secondary"
+          v-if="episode.recommendations"
+        >
+          Recommendations
+        </h2>
+        <p
+          v-for="recommendation in episode.recommendations"
+          :key="recommendation.slug"
+          :details="recommendation"
+          class="text-lg mt-2 ml-3"
+        >
+          {{ `> ${recommendation} ` }}
+        </p>
       </div>
       <div class="w-full lg:w-1/2 px-5 space-y-4">
         <div class="relative h-0 wrapper">
@@ -28,7 +43,7 @@
           />
         </div>
 
-        <div class="ml-2 space-y-2">
+        <div class="ml-2 space-y-2" v-if="episode.contact">
           <h2
             v-if="episode.contact.length !== 0"
             class="font-bold uppercase text-secondary"
@@ -47,7 +62,7 @@
           />
         </div>
 
-        <div class="ml-2 space-y-2">
+        <div class="ml-2 space-y-2" v-if="episode.socmed">
           <h2
             v-if="episode.socmed.length !== 0"
             class="font-bold uppercase text-secondary"
