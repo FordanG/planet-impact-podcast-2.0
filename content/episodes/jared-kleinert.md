@@ -7,10 +7,10 @@ url: https://anchor.fm/manthanshah/embed/episodes/Ep--9--Jared-Kleinert-Most-Con
 image: /img/ep-9-post.png
 name: Jared Kleinert
 socmed:
-  - platform: "Email:"
+  - platform: Email
     url: mailto:jaredkleinert@gmail.com
     handle: jaredkleinert@gmail.com
-  - platform: "Email:"
+  - platform: Email
     url: mailto:jared@3billionunder30.com
     handle: jared@3billionunder30.com
 recommendations:
