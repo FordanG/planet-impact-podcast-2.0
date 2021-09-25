@@ -11,8 +11,8 @@ contact:
     url: https://miriamlancewood.com/
     handle: Miriam Lancewood
 recommendations:
-  - "Music: Classical Clarinet Music by Jörg Widmann All books by Michael Gruber
-    and J. Krishnamurthy"
+  - "Music: Classical Clarinet Music by Jörg Widmann"
+  - Books by Michael Gruber and J. Krishnamurthy
 ---
 Miriam is a best-selling author of the book 'Woman in Wilderness'. She lives with her husband in the New Zealand wilderness, surviving in extreme conditions by hunting wild animals and foraging edible plants. Miriam Lancewood has given up all modern-day comforts to live life right on the edge and off-grid.
 
