@@ -23,8 +23,4 @@ She has now created a course that prepares you for college applications by incre
 
 Planet Impact listeners can use a special coupon code to get US$200 off on the Ivy Advise online course. The coupon code is PLANETIMPACT and it's limited to the first 20 students who enrol. Use this link to see the course and purchase it: <https://ivyadvise.lpages.co/enrollivyadvise/>
 
-Links: 
-
-YesReneau [Youtube](https://www.youtube.com/user/yesreneau)  IvyAdvise [Youtube](https://www.youtube.com/channel/UCmEJaI34w_7T0qHD_KwYPYw) IvyAdvise [Website](https://ivyadvise.com/) Taylor's [Instagram](https://www.instagram.com/yesreneau/) Taylor's [LinkedIn](https://www.linkedin.com/in/taylor-reneau-8377b676/)  Email: contact@ivyadvise.com
-
 <!--EndFragment-->
