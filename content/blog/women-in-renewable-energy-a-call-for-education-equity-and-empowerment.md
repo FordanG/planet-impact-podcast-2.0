@@ -2,7 +2,7 @@
 title: "Women in renewable energy: A call for education, equity and empowerment"
 author: Manthan Shah and Spriha Pandey
 date: 2021-09-13T19:40:13.760Z
-image: https://www.orfonline.org/wp-content/uploads/2020/03/Rural_Electrification_Woman_Getty-1280x720.jpg
+image: /img/rural_electrification_woman_getty-1280x720.jpg
 description: "It is often said that empowering women is the key to changing the
   world. As the majority grassroots beneficiaries of energy access programmes to
   provide clean cooking fuel, women in India are at the forefront of India’s
