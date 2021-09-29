@@ -6,6 +6,17 @@ display: /img/post-4-17-.png
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--19--Dr--Girish-Kulkarni-Snehayala-Part-1-escm7f/a-a4tl7t6
 image: /img/post-4-17-.png
 name: Dr. Girish Kulkarni
+socmed:
+  - platform: Instagram
+    url: https://www.instagram.com/snehalayaindia/
+    handle: "@snehalayaindia"
+contact:
+  - platform: Website
+    url: https://www.snehalaya.org/about
+    handle: Snehalaya
+  - platform: Email
+    url: mailto:info@snehalaya.org
+    handle: info@snehalaya.org
 ---
 <!--StartFragment-->
 
