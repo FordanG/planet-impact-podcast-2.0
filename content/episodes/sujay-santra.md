@@ -2,9 +2,9 @@
 number: 15
 title: Sujay Santra
 subtitle: CEO and Founder of Ikure Techsoft Pvt. Ltd
-display: /img/post-4-14-.png
+display: /img/mr-sujay-post.png
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--15--Sujay-Santra-CEO-and-Founder-of-Ikure-Techsoft-Pvt--Ltd-epjt22/a-a4fopno
-image: /img/post-4-14-.png
+image: /img/mr-sujay-post.png
 name: Sujay Santra
 socmed:
   - platform: LinkedIn
