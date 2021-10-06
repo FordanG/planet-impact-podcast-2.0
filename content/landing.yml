@@ -13,21 +13,16 @@ featured:
       - layusa-isa-odidi
       - samira-khan
 testimonials:
-  - name: Vritti Bhambhvani
-    content: >-
-      (Dubai. UAE)
-
-      Highly recommend this podcast to those who aspire to be young change makers. This podcast sheds light about many factors which will surely have positive impact.
-  - name: Yash Bhote Patil
-    content: >-
-      (Ahmednagar, India)
-
-      Entertaining, insightful, and engaging! This podcast has inspired me to think actively for a career in impact and changemaking.
-  - name: Tanmay Shah
-    content: >-
-      (Singapore)
-
-      In these times, such podcasts, which feature the real change-makers, will definitely have a positive impact in young minds.
+  - name: Vritti Bhambhvani, Dubai. UAE
+    content: Highly recommend this podcast to those who aspire to be young change
+      makers. This podcast sheds light about many factors which will surely have
+      positive impact.
+  - name: Yash Bhote Patil, India
+    content: Entertaining, insightful, and engaging! This podcast has inspired me to
+      think actively for a career in impact and changemaking.
+  - name: Tanmay Shah, Singapore
+    content: In these times, such podcasts, which feature the real change-makers,
+      will definitely have a positive impact in young minds.
 partners:
   - name: Bridge for Billions
     url: https://bridgeforbillions.org/
