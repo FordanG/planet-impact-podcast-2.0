@@ -2,9 +2,9 @@
 number: 16
 title: Melati Wijsen
 subtitle: Creating a Global Youth Run Movement
-display: /img/post-4-15-.png
+display: /img/post-4-9-.png
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--16--Melati-Wijsen-Creating-a-Global-Youth-Run-Movement-eq1gp7/a-a4ifii1
-image: /img/post-4-15-.png
+image: /img/post-4-9-.png
 name: Melati Wijsen
 socmed:
   - platform: Instagram
