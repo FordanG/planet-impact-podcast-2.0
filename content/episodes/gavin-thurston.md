@@ -2,9 +2,9 @@
 number: 17
 title: Gavin Thurston
 subtitle: Journeys in the Wild - The Secret Life of a Cameraman
-display: /img/post-4-16-.png
+display: /img/post-4-12-.png
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--17--Gavin-Thurston-Journeys-in-the-Wild---The-Secret-Life-of-a-Cameraman-e15a4pe/a-a68mhk4
-image: /img/post-4-16-.png
+image: /img/post-4-12-.png
 name: Gavin Thurston
 socmed:
   - platform: Instagram
