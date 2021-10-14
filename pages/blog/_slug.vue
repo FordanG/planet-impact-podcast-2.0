@@ -53,6 +53,20 @@ export default {
     return {
       title: `Planet Impact Podcast | ${this.blog.title}`,
       meta: [
+        {
+          name: 'name',
+          content: this.blog.title
+        },
+        {
+          hid: this.blog.title,
+          name: 'description',
+          content: this.blog.description
+        },
+        {
+          name: 'image',
+          content: `https://planetimpactpod.com/${this.blog.image}`
+        },
+
         // Facebook Open Graph
         {
           name: 'og:url',
@@ -78,6 +92,24 @@ export default {
           hid: this.blog.title,
           name: 'description',
           content: this.blog.description
+        },
+
+        // Twitter
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          name: 'twitter:title',
+          content: this.blog.title
+        },
+        {
+          name: 'twitter:description',
+          content: this.blog.description
+        },
+        {
+          name: 'twitter:image',
+          content: `https://planetimpactpod.com/${this.blog.image}`
         }
       ]
     }
