@@ -129,10 +129,31 @@ export default {
     return {
       title: `Planet Impact Podcast | ${this.episode.title}`,
       meta: [
+        // Facebook Open Graph
+        {
+          name: 'og:url',
+          content: `https://planetimpactpod.com/episodes/${this.episode.slug}`
+        },
+        {
+          name: 'og:type',
+          content: 'article'
+        },
+        {
+          name: 'og:title',
+          content: this.episode.title
+        },
+        {
+          name: 'og:description',
+          content: this.episode.subtitle
+        },
+        {
+          name: 'og:image',
+          content: `https://planetimpactpod.com/${this.episode.image}`
+        },
         {
           hid: this.episode.title,
           name: 'description',
-          content: this.episode.description
+          content: this.episode.subtitle
         }
       ]
     }

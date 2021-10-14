@@ -30,7 +30,10 @@ export default {
         content:
           'Planet Impact Podcast is a weekly show on how non-conformist social entrepreneurs are changing the world.'
       },
-      { property: 'og:image', content: '/img/embed-image.png' },
+      {
+        property: 'og:image',
+        content: 'https://planetimpactpod.com/embed-image.png'
+      },
 
       // <!-- Open Graph / Twitter -->
       { property: 'twitter:card', content: 'summary_large_image' },
@@ -40,7 +43,10 @@ export default {
         content:
           'Planet Impact Podcast is a weekly show on how non-conformist social entrepreneurs are changing the world.'
       },
-      { property: 'twitter:image', content: '/img/embed-image.png' },
+      {
+        property: 'twitter:image',
+        content: 'https://planetimpactpod.com/embed-image.png'
+      },
 
       // Google Site Verification
       {
