@@ -44,3 +44,9 @@ features:
   - name: Livewire
     url: https://livewire.thewire.in/out-and-about/climate-change-on-sustaining-youth-led-movements-during-a-pandemic/
     logo: /img/livewire_full_logo.png
+  - url: https://welpmagazine.com/20-best-revit-podcasts-of-2021/
+    name: Welp Magazine
+    logo: /img/welp-magazine.png
+  - name: Pretty Progressive
+    url: https://prettyprogressive.com/20-best-podcasts-about-sustainable-development-goals-of-2021/
+    logo: /img/pretty-progressive.png
