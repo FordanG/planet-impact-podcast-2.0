@@ -2,9 +2,9 @@
 number: 27
 title: Mesut Keskin
 subtitle: Founder-CEO, E-Bursum, Turkey
-display: /img/post-4-4-.jpg
+display: /img/ep-27.-mesut-keskin.jpg
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--27--Mesut-Keskin-Founder-CEO--E-Bursum--Turkey-e15teu6/a-a6bhjgp
-image: /img/post-4-4-.jpg
+image: /img/ep-27.-mesut-keskin.jpg
 name: Mesut Keskin
 socmed:
   - platform: LinkedIn
