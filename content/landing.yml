@@ -37,6 +37,9 @@ partners:
   - name: Radio Nagar
     url: https://www.snehalaya.org/radio-nagar
     logo: /img/radio-nagar.webp
+  - name: Snehalaya
+    url: https://www.snehalaya.org/
+    logo: /img/logo-2-.jpg
 features:
   - name: Livewire
     url: https://livewire.thewire.in/out-and-about/climate-change-on-sustaining-youth-led-movements-during-a-pandemic/
