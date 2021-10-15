@@ -3,9 +3,9 @@ number: 24
 title: Caitlyn Lubas
 subtitle: 22-year old author of 'You Are Where You Go' and an Ex-Instagram
   Product Specialist
-display: /img/post-4-4-.jpg
+display: /img/caitlyn-lubas.jpg
 url: https://anchor.fm/manthanshah/embed/episodes/Ep--24--Caitlyn-Lubas-22-year-old-author-of-You-Are-Where-You-Go-and-an-Ex-Instagram-Product-Specialist-e14ugas/a-a671bmk
-image: /img/post-4-4-.jpg
+image: /img/caitlyn-lubas.jpg
 name: Caitlyn Lubas
 socmed:
   - platform: Personal Instagram
